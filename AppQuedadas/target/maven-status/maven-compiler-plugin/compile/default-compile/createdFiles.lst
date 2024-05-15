@@ -1,0 +1,12 @@
+com\mycompany\appquedadas\model\BaseDeDatos.class
+com\mycompany\appquedadas\CrearGrupoController.class
+com\mycompany\appquedadas\model\AppInfo.class
+com\mycompany\appquedadas\model\Usuario.class
+com\mycompany\appquedadas\TutorialController.class
+com\mycompany\appquedadas\HomeController.class
+module-info.class
+com\mycompany\appquedadas\model\Tabla.class
+com\mycompany\appquedadas\model\Conexion.class
+com\mycompany\appquedadas\App.class
+com\mycompany\appquedadas\RegistraseController.class
+com\mycompany\appquedadas\ElegirGrupoController.class
