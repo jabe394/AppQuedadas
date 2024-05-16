@@ -3,69 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Aplicación</title>
+    <title>AppQuedadas-Web-Project(1.0)</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
         }
         header {
             background-color: #333;
             color: #fff;
-            padding: 1rem;
+            padding: 10px 0;
             text-align: center;
         }
-        .container {
-            width: 80%;
-            margin: 2rem auto;
-            background-color: #fff;
-            padding: 2rem;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .image-container {
+        nav {
+            background-color: #444;
             text-align: center;
-            margin-bottom: 2rem;
+            padding: 10px 0;
         }
-        .image-container img {
-            max-width: 100%;
-            height: auto;
-            border: 1px solid #ddd;
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
         }
-        .image-container p {
-            margin: 0.5rem 0 0;
-            font-style: italic;
-            color: #555;
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .process {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+        }
+        .process-content {
+            max-width: 800px;
+            text-align: center;
+        }
+        .process-step {
+            margin-bottom: 20px;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Bienvenido a Mi Aplicación</h1>
+        <h1>Proyecto XYZ</h1>
     </header>
-    <div class="container">
-        <h2>Capturas de Pantalla</h2>
-        <div class="image-container">
-            <img src="./Imagenes/home.png" alt="Pagina Principal">
-            <p>Esta es la pantalla principal de la aplicación, donde el usuario puede ver el resumen de sus actividades.</p>
+    <nav>
+        <a href="./index.html">Inicio</a>
+        <a href="./docs/interfaz.html">Interfaz</a>
+        <a href="./docs/diagrama.html">Diagrama</a>
+        <a href="./docs/uml.html">Uml</a>
+    </nav>
+    <section id="inicio">
+        <h2>Bienvenido a mi Proyecto AppQuedadas-Web-Project(1.0)</h2>
+        <p>Aquí puedes encontrar información sobre mi proceso de proyecto.</p>
+    </section>
+    <section id="proceso" class="process">
+        <div class="process-content">
+            <h2>Mi Proceso</h2>
+            <div class="process-step">
+                <h3>Paso 1</h3>
+                <p>Diseñar Interfaz de la Applicación en la Applicación Miro</p>
+            </div>
+            <div class="process-step">
+                <h3>Paso 2</h3>
+                <p>Diseñar Diagrama Entidad Relación</p>
+            </div>
+            <div class="process-step">
+                <h3>Paso 3</h3>
+                <p>Diseñar Diagrama Classes</p>
+            </div>
+            <div class="process-step">
+                <h3>Paso 4</h3>
+                <p>Diseñar Diagrama Casos de Uso</p>
+            </div>
         </div>
-        <div class="image-container">
-            <img src="./Imagenes/elegirGrupo.png" alt= "Tutorial de Introducción">
-            <p>"En esta interfaz de la aplicación se explica un tutorial primero si el usuario no está registrado sobre el funcionamiento de la aplicación."</p>
-        </div>
-        <div class="image-container">
-            <img src="./Imagenes/crearGrupo.png" alt="Interfaz Crear Nuevo Grupo">
-            <p>"Una vez hecho clic en el botón 'Crear nuevo grupo', se pueden especificar los usuarios que estarán dentro del grupo. Al seleccionarlos, se pasan a la siguiente ListView donde el título es 'Usuarios Grupo' y podemos hacer clic en el botón 'Crear'."</p>
-        </div>
-        <div class="image-container">
-            <h2>Diagrama Entitat Relació</h2>
-            <img src="./Imagenes/diagramaEntidadRelación.png" alt="Interfaz Crear Nuevo Grupo">
-        </div>
-        <div class="image-container">
-            <h2>Uml AppQuedadas</h2>
-            <img src="./Imagenes/uml-(AppQuedadas).png" alt="Interfaz Crear Nuevo Grupo">
-        </div
-    </div>
+    </section>
+    <footer>
+        <p>Derechos de autor &copy; 2024 Tu Empresa</p>
+    </footer>
 </body>
 </html>
